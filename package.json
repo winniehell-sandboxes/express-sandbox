@@ -7,14 +7,10 @@
         "test": "curl localhost:3456/subapp/"
     },
     "dependencies": {
-        "body-parser": "~1.10.2",
-        "cookie-parser": "~1.3.3",
         "debug": "~2.1.1",
         "express": "^4.11.2",
         "express-streamline": "^0.5.1",
-        "jade": "~1.9.1",
         "morgan": "~1.5.1",
-        "serve-favicon": "~2.2.0",
         "streamline": "^0.10.16"
     }
 }
