@@ -13,5 +13,6 @@ subapp.use('/', routes);
 
 var app = express();
 app.use('/subapp', subapp);
+subapp.mountpath = '/subapp';
 
 module.exports = app;
